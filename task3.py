@@ -17,9 +17,6 @@ class Employee:
     def __generate_employee_id(self):
         return hash(self)
 
-    def hash(self):
-        return self.first_name + self.second_name
-
 
 class FullTimeEmployee(Employee):
 
